@@ -1,0 +1,190 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body {
+   
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    
+   
+  }
+  
+  /*==================================================
+------------------[ Navigation ]--------------------
+================================================== */
+
+.nav-bar {
+    background-color: #0e0d0dea;
+    color: #f1a43c;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px #bebebe;
+    left: 0px; right: 0px;
+    height: 60px;
+    font-size: 1.8rem;
+
+}
+
+
+  /*==================================================
+------------------[ Calculator ]--------------------
+================================================== */
+
+  .calculator {
+    background-color: #0e0d0dea;
+    padding: 35px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    width: 510px;
+    margin: 4% auto;
+    margin-top: 100px;
+    font-size: 1.8rem;
+  }
+  
+  .input {
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+  }
+  
+  .input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  
+  .operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f1a43c;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .operators div:hover {
+    background-color: #f4c995;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+  
+  .operators div:active {
+    font-weight: bold;
+  }
+  
+  .leftPanel {
+    display: inline-block;
+  }
+  
+  .numbers div {
+    display: inline-block;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #333333;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .numbers div:hover {
+    background-color: #737373;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #bbb;
+  }
+  
+  .numbers div:active {
+    font-weight: bold;
+  }
+  
+  div.equal {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    width: 17%;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #f1a43c;
+    transition: all .2s ease-in-out;
+  }
+  
+  div.equal:hover {
+    background-color: #f4c995;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #bbb;
+  }
+  
+  div.equal:active {
+    font-weight: bold;
+  }
+
+  .section-hr {
+    margin: 60px auto;
+    width: 2px;
+    height: 175px;
+    border: none;
+    background-color: #0e0d0dea;
+}
+
+
+/*==================================================
+------------------[ Footer ]--------------------
+================================================== */
+
+
+.footer {
+    background-color: #0e0d0dea;
+    min-height: 200px;
+    text-align: center;
+    margin-top: 80px;
+    color: #f1a43c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 25px #bebebe;
+    font-size: 20px;
+}
+
+.footer .social-box {
+    margin-top: 30px;
+}
+
+.footer .social-box a {
+    text-decoration: none;
+    word-spacing: 25px;
+}
+
+.footer .copyright {
+    border-top: 2px solid #f1a43c;
+    margin: 35px 180px 0px 180px;
+    padding-top: 25px;
+}
